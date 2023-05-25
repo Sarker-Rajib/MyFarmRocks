@@ -1,0 +1,50 @@
+.about {
+    padding-top: 140px;
+
+    .ab-wrapper {
+        max-width: 600px;
+        margin: auto;
+
+        p {
+            font-family: "helvetia-regular";
+            font-size: 20px;
+
+            .green {
+                color: #83fe80;
+            }
+
+            .purple {
+                color: #bf6cff;
+
+                &.b {
+                    font-family: "helvetia-oblique";
+                }
+            }
+
+            .amber {
+                color: #ffb321;
+                font-family: "helvetia-oblique";
+            }
+        }
+
+        .lists {
+            padding: 30px 0;
+        }
+
+        .note {
+            margin-top: 20px;
+            font-size: 24px;
+            display: inline-block;
+            color: #af89ee;
+            line-height: 1.2;
+            border: 1px solid #af89ee;
+            border-radius: 20px;
+            padding: 5px 10px;
+            align-items: center;
+        }
+
+        .images {
+            padding-top: 90px;
+        }
+    }
+}

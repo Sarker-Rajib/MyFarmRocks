@@ -1,0 +1,93 @@
+.why-farmrock {
+    background: url(../images/faq-bg.png) no-repeat;
+    margin-top: 90px;
+
+    .heading {
+        font-family: "courier-new";
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 1.0;
+    }
+
+    .sub-heading {
+        font-family: "helvetia-oblique";
+        font-weight: bold;
+        font-size: 32px;
+        color: #c834ff;
+        padding-bottom: 30px;
+    }
+
+    p {
+        font-family: "helvetia-regular";
+        font-size: 20px;
+
+        span {
+            color: #bf6cff;
+        }
+    }
+
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 30px;
+
+        p {
+            color: #bf6cff;
+            border: 2px solid #fff;
+            padding: 10px;
+            border-radius: 50%;
+            margin: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .faq {
+        padding: 90px 60px;
+
+        .accordion-4 {
+            .accordion-item {
+                margin-bottom: 30px;
+                border-radius: 15px;
+                overflow: hidden;
+
+                .accordion-header {
+                    .accordion-button {
+                        font-size: 16px;
+                        font-weight: bold;
+                        font-family: "helvetia-oblique";
+
+                        &:not(.collapsed) {
+                            color: white;
+                            background-color: #c834ff;
+                            box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+                        }
+
+                        &:not(.collapsed)::after {
+                            content: "−";
+                            background-image: none;
+                            transform: none;
+                        }
+
+                        &:after {
+                            content: "+";
+                            background-image: none;
+                            font-size: 24px;
+                            font-weight: 700;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        .wake-up {
+            font-family: "helvetia-oblique";
+            color: #ffd200;
+        }
+    }
+}

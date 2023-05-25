@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/*=== abstracts css start === */
+@font-face {
+  font-family: "helvetia-regular";
+  src: url(../font/Helvetica.ttf);
+}
+@font-face {
+  font-family: "helvetia-oblique";
+  src: url(../font/Helvetica-BoldOblique.ttf);
+}
+@font-face {
+  font-family: "courier-new";
+  src: url(../font/cour.ttf);
+}
+/*===// end of abstracts css === */
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: rgb(27, 23, 54);
+  background: linear-gradient(180deg, rgb(27, 23, 54) 0%, rgb(8, 7, 14) 100%);
+  color: #ffffff;
+}
+
+.main-wraaper-whole {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/*===// end of base css === */
+/*=== layouts css start === */
+/*===// end of layouts css === */
+/*=== components css start === */
+.main-banner {
+  background: url(../images/main-banner-ima.png) no-repeat right top;
+}
+@media (max-width: 767px) {
+  .main-banner {
+    background: url(../images/main-banner-ima.png) no-repeat left top;
+  }
+}
+.main-banner .b-text {
+  font-size: 68px;
+  font-family: "helvetia-regular";
+}
+.main-banner .b-text span {
+  font-family: "helvetia-oblique";
+}
+.main-banner .b-text .green {
+  color: #83fe80;
+}
+.main-banner .b-text .purple {
+  color: #bf6cff;
+}
+.main-banner .b-text .yellow {
+  color: #ffb321;
+}
+
+.about {
+  padding-top: 140px;
+}
+.about .ab-wrapper {
+  max-width: 600px;
+  margin: auto;
+}
+.about .ab-wrapper p {
+  font-family: "helvetia-regular";
+  font-size: 20px;
+}
+.about .ab-wrapper p .green {
+  color: #83fe80;
+}
+.about .ab-wrapper p .purple {
+  color: #bf6cff;
+}
+.about .ab-wrapper p .purple.b {
+  font-family: "helvetia-oblique";
+}
+.about .ab-wrapper p .amber {
+  color: #ffb321;
+  font-family: "helvetia-oblique";
+}
+.about .ab-wrapper .lists {
+  padding: 30px 0;
+}
+.about .ab-wrapper .note {
+  margin-top: 20px;
+  font-size: 24px;
+  display: inline-block;
+  color: #af89ee;
+  line-height: 1.2;
+  border: 1px solid #af89ee;
+  border-radius: 20px;
+  padding: 5px 10px;
+  align-items: center;
+}
+.about .ab-wrapper .images {
+  padding-top: 90px;
+}
+
+.how-it-works .wrapping {
+  padding-top: 90px;
+  background: url(../images/work-bg.png) no-repeat center center/cover;
+}
+.how-it-works .wrapping .images {
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.how-it-works .wrapping .images .pic-text {
+  padding-left: 5px;
+  margin-top: -40px;
+  font-family: "helvetia-regular";
+  font-size: 20px;
+}
+.how-it-works .wrapping .images .pic-text .purple {
+  color: #bf6cff;
+}
+.how-it-works .wrapping .images .pic-text .purple.b {
+  font-family: "helvetia-oblique";
+}
+.how-it-works .wrapping .images .pic-text .yellow {
+  color: #ffb321;
+  font-family: "helvetia-oblique";
+}
+.how-it-works .heading {
+  font-family: "courier-new";
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1;
+}
+.how-it-works .sub-heading {
+  font-family: "helvetia-oblique";
+  font-weight: bold;
+  font-size: 32px;
+  color: #c834ff;
+  padding-bottom: 30px;
+}
+.how-it-works p {
+  font-family: "helvetia-regular";
+  font-size: 20px;
+}
+.how-it-works p span {
+  color: #bf6cff;
+}
+.how-it-works .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+.how-it-works .number p {
+  color: #bf6cff;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-farmrock {
+  background: url(../images/faq-bg.png) no-repeat;
+  margin-top: 90px;
+}
+.why-farmrock .heading {
+  font-family: "courier-new";
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1;
+}
+.why-farmrock .sub-heading {
+  font-family: "helvetia-oblique";
+  font-weight: bold;
+  font-size: 32px;
+  color: #c834ff;
+  padding-bottom: 30px;
+}
+.why-farmrock p {
+  font-family: "helvetia-regular";
+  font-size: 20px;
+}
+.why-farmrock p span {
+  color: #bf6cff;
+}
+.why-farmrock .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+.why-farmrock .number p {
+  color: #bf6cff;
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.why-farmrock .faq {
+  padding: 90px 60px;
+}
+.why-farmrock .faq .accordion-4 .accordion-item {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.why-farmrock .faq .accordion-4 .accordion-item .accordion-header .accordion-button {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "helvetia-oblique";
+}
+.why-farmrock .faq .accordion-4 .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #c834ff;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.why-farmrock .faq .accordion-4 .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
+  content: "−";
+  background-image: none;
+  transform: none;
+}
+.why-farmrock .faq .accordion-4 .accordion-item .accordion-header .accordion-button:after {
+  content: "+";
+  background-image: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.why-farmrock .faq .wake-up {
+  font-family: "helvetia-oblique";
+  color: #ffd200;
+}
+
+/*===// end of components css === *//*# sourceMappingURL=style.css.map */

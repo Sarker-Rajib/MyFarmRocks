@@ -1,0 +1,77 @@
+.how-it-works {
+
+    .wrapping {
+        padding-top: 90px;
+        background: url(../images/work-bg.png) no-repeat center center/cover;
+
+        .images {
+            max-width: 600px;
+            margin: auto;
+            padding-bottom: 50px;
+
+            .pic-text {
+                padding-left: 5px;
+                margin-top: -40px;
+                font-family: "helvetia-regular";
+                font-size: 20px;
+
+                .purple {
+                    color: #bf6cff;
+
+                    &.b {
+                        font-family: "helvetia-oblique";
+                    }
+                }
+
+                .yellow {
+                    color: #ffb321;
+                    font-family: "helvetia-oblique";
+                }
+            }
+        }
+    }
+
+    .heading {
+        font-family: "courier-new";
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 1.0;
+    }
+
+    .sub-heading {
+        font-family: "helvetia-oblique";
+        font-weight: bold;
+        font-size: 32px;
+        color: #c834ff;
+        padding-bottom: 30px;
+    }
+
+    p {
+        font-family: "helvetia-regular";
+        font-size: 20px;
+
+        span {
+            color: #bf6cff;
+        }
+    }
+
+    .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 30px;
+
+        p {
+            color: #bf6cff;
+            border: 2px solid #fff;
+            padding: 10px;
+            border-radius: 50%;
+            margin: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
