@@ -1,0 +1,27 @@
+.header {
+    padding: 50px 0;
+
+    .navbar {
+        .navbar-collapse {
+            .nav-link {
+                font-size: 25px;
+                font-weight: 700;
+                font-family: 'Space Mono', monospace;
+                color: #fff;
+                text-decoration: underline;
+                margin-left: 40px;
+
+                @media(max-width: 991px) {
+                    margin-left: 10px;
+                }
+
+                &.nav-btn {
+                    text-decoration: none;
+                    background: #4044ee;
+                    border-radius: 10px;
+                    padding: 7px 20px;
+                }
+            }
+        }
+    }
+}
