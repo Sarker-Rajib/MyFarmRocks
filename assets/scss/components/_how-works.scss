@@ -4,8 +4,13 @@
     }
 
     .wrapping {
-        padding-top: 90px;
         background: url(../images/work-bg.png) no-repeat center center/cover;
+
+        .m-wrapper {
+            padding-top: 90px;
+            background: #0000003f;
+            backdrop-filter: blur(8px);
+        }
 
         .images {
             max-width: 600px;

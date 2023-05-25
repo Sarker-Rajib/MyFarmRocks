@@ -88,20 +88,25 @@ body {
     background: url(../images/main-banner-ima.png) no-repeat left top;
   }
 }
-.main-banner .b-text {
+.main-banner .b-wrapper {
+  background: rgba(0, 0, 0, 0);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.main-banner .b-wrapper .b-text {
   font-size: 68px;
   font-family: "helvetia-regular";
 }
-.main-banner .b-text span {
+.main-banner .b-wrapper .b-text span {
   font-family: "helvetia-oblique";
 }
-.main-banner .b-text .green {
+.main-banner .b-wrapper .b-text .green {
   color: #83fe80;
 }
-.main-banner .b-text .purple {
+.main-banner .b-wrapper .b-text .purple {
   color: #bf6cff;
 }
-.main-banner .b-text .yellow {
+.main-banner .b-wrapper .b-text .yellow {
   color: #ffb321;
 }
 
@@ -168,8 +173,13 @@ body {
   }
 }
 .how-it-works .wrapping {
-  padding-top: 90px;
   background: url(../images/work-bg.png) no-repeat center center/cover;
+}
+.how-it-works .wrapping .m-wrapper {
+  padding-top: 90px;
+  background: rgba(0, 0, 0, 0.2470588235);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
 }
 .how-it-works .wrapping .images {
   max-width: 600px;
@@ -246,6 +256,12 @@ body {
   .why-farmrock {
     padding: 0 10px;
   }
+}
+.why-farmrock .w-wrapper {
+  padding-top: 90px;
+  background: rgba(0, 0, 0, 0.0705882353);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
 }
 .why-farmrock .heading {
   font-family: "courier-new";
@@ -327,7 +343,7 @@ body {
 }
 .why-farmrock .faq .wake-up {
   font-family: "helvetia-oblique";
-  color: #ffd200;
+  color: #83fe80;
 }
 
 /*===// end of components css === *//*# sourceMappingURL=style.css.map */

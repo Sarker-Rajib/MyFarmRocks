@@ -6,6 +6,12 @@
         padding: 0 10px;
     }
 
+    .w-wrapper {
+        padding-top: 90px;
+        background: #00000012;
+        backdrop-filter: blur(8px);
+    }
+
     .heading {
         font-family: "courier-new";
         font-weight: bold;
@@ -99,7 +105,7 @@
 
         .wake-up {
             font-family: "helvetia-oblique";
-            color: #ffd200;
+            color: #83fe80;
         }
     }
 }
