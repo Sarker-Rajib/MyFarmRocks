@@ -2,6 +2,10 @@
     background: url(../images/faq-bg.png) no-repeat;
     margin-top: 90px;
 
+    @media(max-width: 767px) {
+        padding: 0 10px;
+    }
+
     .heading {
         font-family: "courier-new";
         font-weight: bold;
@@ -32,6 +36,10 @@
         justify-content: center;
         padding: 0 30px;
 
+        @media(max-width: 767px) {
+            padding: 0 10px;
+        }
+
         p {
             color: #bf6cff;
             border: 2px solid #fff;
@@ -48,6 +56,10 @@
 
     .faq {
         padding: 90px 60px;
+
+        @media(max-width: 767px) {
+            padding: 50px 15px;
+        }
 
         .accordion-4 {
             .accordion-item {

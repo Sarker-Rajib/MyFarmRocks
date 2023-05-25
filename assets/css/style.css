@@ -47,12 +47,16 @@ body {
 .main-wraaper-whole {
   max-width: 1000px;
   margin: auto;
-}
-
-/*===// end of base css === */
+  overflow: hidden;
+} /*===// end of base css === */
 /*=== layouts css start === */
 .header {
   padding: 50px 0;
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 20px 0;
+  }
 }
 .header .navbar .navbar-collapse .nav-link {
   font-size: 25px;
@@ -104,6 +108,12 @@ body {
 .about {
   padding-top: 140px;
 }
+@media (max-width: 767px) {
+  .about {
+    padding-top: 80px;
+    padding-inline: 15px;
+  }
+}
 .about .ab-wrapper {
   max-width: 600px;
   margin: auto;
@@ -152,6 +162,11 @@ body {
   padding-top: 90px;
 }
 
+@media (max-width: 767px) {
+  .how-it-works {
+    padding-inline: 15px;
+  }
+}
 .how-it-works .wrapping {
   padding-top: 90px;
   background: url(../images/work-bg.png) no-repeat center center/cover;
@@ -166,6 +181,8 @@ body {
   margin-top: -40px;
   font-family: "helvetia-regular";
   font-size: 20px;
+  position: relative;
+  z-index: 99;
 }
 .how-it-works .wrapping .images .pic-text .purple {
   color: #bf6cff;
@@ -203,6 +220,11 @@ body {
   justify-content: center;
   padding: 0 30px;
 }
+@media (max-width: 767px) {
+  .how-it-works .number {
+    padding: 0 10px;
+  }
+}
 .how-it-works .number p {
   color: #bf6cff;
   border: 2px solid #fff;
@@ -219,6 +241,11 @@ body {
 .why-farmrock {
   background: url(../images/faq-bg.png) no-repeat;
   margin-top: 90px;
+}
+@media (max-width: 767px) {
+  .why-farmrock {
+    padding: 0 10px;
+  }
 }
 .why-farmrock .heading {
   font-family: "courier-new";
@@ -246,6 +273,11 @@ body {
   justify-content: center;
   padding: 0 30px;
 }
+@media (max-width: 767px) {
+  .why-farmrock .number {
+    padding: 0 10px;
+  }
+}
 .why-farmrock .number p {
   color: #bf6cff;
   border: 2px solid #fff;
@@ -260,6 +292,11 @@ body {
 }
 .why-farmrock .faq {
   padding: 90px 60px;
+}
+@media (max-width: 767px) {
+  .why-farmrock .faq {
+    padding: 50px 15px;
+  }
 }
 .why-farmrock .faq .accordion-4 .accordion-item {
   margin-bottom: 30px;

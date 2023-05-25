@@ -1,6 +1,11 @@
 .about {
     padding-top: 140px;
 
+    @media(max-width: 767px) {
+        padding-top: 80px;
+        padding-inline: 15px;
+    }
+
     .ab-wrapper {
         max-width: 600px;
         margin: auto;

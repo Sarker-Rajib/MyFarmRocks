@@ -1,4 +1,7 @@
 .how-it-works {
+    @media(max-width: 767px) {
+        padding-inline: 15px;
+    }
 
     .wrapping {
         padding-top: 90px;
@@ -14,6 +17,8 @@
                 margin-top: -40px;
                 font-family: "helvetia-regular";
                 font-size: 20px;
+                position: relative;
+                z-index: 99;
 
                 .purple {
                     color: #bf6cff;
@@ -60,6 +65,11 @@
         align-items: center;
         justify-content: center;
         padding: 0 30px;
+
+        @media(max-width: 767px) {
+            padding: 0 10px;
+        }
+
 
         p {
             color: #bf6cff;
