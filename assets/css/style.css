@@ -122,9 +122,10 @@ body {
   position: relative;
 }
 .about .ab-wrapper .ab-heading .abt {
-  font-family: "courier-new";
-  font-size: 35px;
+  font-family: courier-new;
   font-weight: bold;
+  font-size: 48px;
+  line-height: 1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -173,31 +174,42 @@ body {
 .how-it-works .wrapping {
   background: url(../images/work-bg.png) no-repeat center center/cover;
 }
-.how-it-works .wrapping .m-wrapper {
-  padding-top: 90px;
-}
 .how-it-works .wrapping .images {
+  padding-top: 90px;
   max-width: 600px;
   margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .how-it-works .wrapping .images .pic-text {
-  padding-left: 5px;
   margin-top: -40px;
+}
+.how-it-works .wrapping .images .pic-text .para {
+  padding-left: 5px;
   font-family: "helvetia-regular";
   font-size: 20px;
   position: relative;
   z-index: 99;
 }
-.how-it-works .wrapping .images .pic-text .purple {
+.how-it-works .wrapping .images .pic-text .para .purple {
   color: #bf6cff;
 }
-.how-it-works .wrapping .images .pic-text .purple.b {
+.how-it-works .wrapping .images .pic-text .para .purple.b {
   font-family: "helvetia-oblique";
 }
-.how-it-works .wrapping .images .pic-text .yellow {
+.how-it-works .wrapping .images .pic-text .para .yellow {
   color: #ffb321;
   font-family: "helvetia-oblique";
+}
+@media (max-width: 767px) {
+  .how-it-works .wrapping .images .pic-text .para {
+    font-size: 16px;
+  }
+}
+.how-it-works .wrapping .images .swiper .swiper-button-next::after,
+.how-it-works .wrapping .images .swiper .swiper-button-prev::after {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffb321;
 }
 .how-it-works .heading {
   font-family: "courier-new";

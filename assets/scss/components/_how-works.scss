@@ -6,34 +6,51 @@
     .wrapping {
         background: url(../images/work-bg.png) no-repeat center center/cover;
 
-        .m-wrapper {
-            padding-top: 90px;
-        }
 
         .images {
+            padding-top: 90px;
             max-width: 600px;
             margin: auto;
-            padding-bottom: 50px;
+            padding-bottom: 60px;
 
             .pic-text {
-                padding-left: 5px;
                 margin-top: -40px;
-                font-family: "helvetia-regular";
-                font-size: 20px;
-                position: relative;
-                z-index: 99;
 
-                .purple {
-                    color: #bf6cff;
+                .para {
+                    padding-left: 5px;
+                    font-family: "helvetia-regular";
+                    font-size: 20px;
+                    position: relative;
+                    z-index: 99;
 
-                    &.b {
+                    .purple {
+                        color: #bf6cff;
+
+                        &.b {
+                            font-family: "helvetia-oblique";
+                        }
+                    }
+
+                    .yellow {
+                        color: #ffb321;
                         font-family: "helvetia-oblique";
                     }
-                }
 
-                .yellow {
-                    color: #ffb321;
-                    font-family: "helvetia-oblique";
+                    @media(max-width: 767px) {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .swiper {
+
+                .swiper-button-next,
+                .swiper-button-prev {
+                    &::after {
+                        font-size: 22px;
+                        font-weight: bold;
+                        color: #ffb321;
+                    }
                 }
             }
         }
