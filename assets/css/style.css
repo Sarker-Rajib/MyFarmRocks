@@ -171,9 +171,6 @@ body {
     padding-inline: 15px;
   }
 }
-.how-it-works .wrapping-slider {
-  background: url(../images/work-bg.png) no-repeat center center/cover;
-}
 .how-it-works .wrapping-slider .images {
   padding: 90px 0px 0px;
   max-width: 750px;
