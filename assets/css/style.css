@@ -175,9 +175,8 @@ body {
   background: url(../images/work-bg.png) no-repeat center center/cover;
 }
 .how-it-works .wrapping .images {
-  padding-top: 90px;
+  padding: 90px 0px;
   margin: auto;
-  padding-bottom: 60px;
 }
 .how-it-works .wrapping .images .pic-text {
   margin-top: -40px;
