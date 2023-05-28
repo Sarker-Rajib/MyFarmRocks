@@ -1,0 +1,62 @@
+.portfolio {
+    padding: 50px 0;
+
+    @media(max-width:991px) {
+        padding: 10px;
+    }
+
+    .heading {
+        font-family: "courier-new";
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 1.0;
+        padding: 40px 0;
+    }
+
+    .p-wrapper {
+        .nav {
+            @media(max-width:991px) {
+                padding-bottom: 20px;
+            }
+
+            .nav-link {
+                font-family: "helvetia-regular";
+                font-weight: bold;
+                color: #fff;
+                text-align: left;
+                background: #00000000;
+                border-radius: 0px;
+                padding-right: 20px;
+                margin: 0 10px 10px 0;
+                border-right: 2px solid #c934ff00;
+
+
+                &.active {
+                    border-right: 2px solid #c834ff;
+
+                    @media(max-width:991px) {
+                        border: 0;
+                        padding: 8px 16px;
+                        border-bottom: 2px solid #c834ff;
+                    }
+                }
+
+
+            }
+        }
+
+        .tab-content {
+            .tab-pane {
+                .content-wrapper {
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+
+                    div {
+                        padding: 20px;
+                        border: 1px solid #53628a52;
+                    }
+                }
+            }
+        }
+    }
+}

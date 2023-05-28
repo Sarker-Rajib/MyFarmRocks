@@ -317,7 +317,7 @@ body {
   justify-content: center;
 }
 .why-farmrock .faq {
-  padding: 90px 60px;
+  padding: 90px 60px 0px;
 }
 @media (max-width: 767px) {
   .why-farmrock .faq {
@@ -354,6 +354,56 @@ body {
 .why-farmrock .faq .wake-up {
   font-family: "helvetia-oblique";
   color: #83fe80;
+}
+
+.portfolio {
+  padding: 50px 0;
+}
+@media (max-width: 991px) {
+  .portfolio {
+    padding: 10px;
+  }
+}
+.portfolio .heading {
+  font-family: "courier-new";
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1;
+  padding: 40px 0;
+}
+@media (max-width: 991px) {
+  .portfolio .p-wrapper .nav {
+    padding-bottom: 20px;
+  }
+}
+.portfolio .p-wrapper .nav .nav-link {
+  font-family: "helvetia-regular";
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  padding-right: 20px;
+  margin: 0 10px 10px 0;
+  border-right: 2px solid rgba(201, 52, 255, 0);
+}
+.portfolio .p-wrapper .nav .nav-link.active {
+  border-right: 2px solid #c834ff;
+}
+@media (max-width: 991px) {
+  .portfolio .p-wrapper .nav .nav-link.active {
+    border: 0;
+    padding: 8px 16px;
+    border-bottom: 2px solid #c834ff;
+  }
+}
+.portfolio .p-wrapper .tab-content .tab-pane .content-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.portfolio .p-wrapper .tab-content .tab-pane .content-wrapper div {
+  padding: 20px;
+  border: 1px solid rgba(83, 98, 138, 0.3215686275);
 }
 
 /*===// end of components css === *//*# sourceMappingURL=style.css.map */
